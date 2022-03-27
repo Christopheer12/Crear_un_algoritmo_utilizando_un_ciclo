@@ -15,3 +15,4 @@ console.log(palabraC);
 let yourName = prompt("¿cual es tu nombre?");
 let youLastName = prompt("¿cual es tu apellido?");
 let yourNameIs = alert("tu nombre es" + espaciO + yourName + espaciO + youLastName);
+
