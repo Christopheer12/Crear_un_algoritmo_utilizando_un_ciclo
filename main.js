@@ -10,3 +10,7 @@ let palabraA = "Coder";
 let palabrab ="house";
 let palabraC = palabraA + espaciO + palabrab ;
 console.log(palabraC);
+
+/* Promt*/
+let yourName = prompt("¿cual es tu nombre?");
+let youLastName = prompt("¿cual es tu apellido?");
