@@ -12,7 +12,11 @@ let palabraC = palabraA + espaciO + palabrab ;
 console.log(palabraC);
 
 /* Promt*/
-let yourName = prompt("¿cual es tu nombre?");
-let youLastName = prompt("¿cual es tu apellido?");
-let yourNameIs = alert("tu nombre es" + espaciO + yourName + espaciO + youLastName);
+let verificacion = prompt("¿que edad tienes?")
 
+
+if (verificacion >= 18){
+    let yourName = prompt("¿cual es tu nombre?");
+    let youLastName = prompt("¿cual es tu apellido?");
+    let yourNameIs = alert("tu nombre es" + espaciO + yourName + espaciO + youLastName);
+}
