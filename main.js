@@ -1,15 +1,5 @@
 /* ejemplo de for y while crea un algoritmo que repira un bloque de instrucciones*/
-alert("hola");
-const espaciO = " ";
-let numeroA = 1;
-let numeroB = 2;
-let numeroC = numeroA + numeroB;
-console.log(numeroC);
 
-let palabraA = "Coder";
-let palabrab ="house";
-let palabraC = palabraA + espaciO + palabrab ;
-console.log(palabraC);
 
 /* Promt*/
 let verificacion = parseInt(prompt("¿que edad tienes?"));
@@ -21,6 +11,14 @@ if (verificacion >= 21 && verificacion<= 100){
  
 else if (verificacion >=18 && verificacion <=20 ){
     alert("CASIIIIIIIIIIIIIIIIIIIIIIIIIIIIII, pero nop");
+    for (let i = 1; i<= verificacion; i++){
+        alert(`te falta  ${i} para votar`);
+        if( i==3){
+            break;
+        }
+        
+    }
+
 }
 else if (verificacion >=0 && verificacion <=17
      ){
