@@ -1,8 +1,6 @@
 /* ejemplo de for y while crea un algoritmo que repira un bloque de instrucciones*/
 
-
-/* Promt*/
-let espaciO = (" ");
+const ESPACIO = (" ");
 let verificacion = parseInt(prompt("¿que edad tienes?"));
 if (verificacion >= 21 && verificacion<= 100){
     let yourName = prompt("¿cual es tu nombre?");
@@ -13,7 +11,7 @@ if (verificacion >= 21 && verificacion<= 100){
         alert("contraseña invalida, vuelve a intentar");
         dato = parseInt(prompt("cual es la contraseña?"));
     }
-    alert(`Bienvenido " ${espaciO} ${yourName} ${espaciO} ${youLastName} " a tu pagina web con Js`);
+    alert(`Bienvenido " ${ESPACIO} ${yourName} ${ESPACIO} ${youLastName} " a tu pagina web con Js`);
 }
  
 else if (verificacion >=18 && verificacion <=20 ){
