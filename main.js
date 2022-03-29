@@ -7,7 +7,13 @@ let verificacion = parseInt(prompt("¿que edad tienes?"));
 if (verificacion >= 21 && verificacion<= 100){
     let yourName = prompt("¿cual es tu nombre?");
     let youLastName = prompt("¿cual es tu apellido?");
-    alert(`tu nombre es ${espaciO} ${yourName} ${espaciO} ${youLastName}`);
+    let pass = 2903;
+    let dato = parseInt(prompt("cual es la contraseña?"));
+    while(dato != pass){
+        alert("contraseña invalida, vuelve a intentar");
+        dato = parseInt(prompt("cual es la contraseña?"));
+    }
+    alert(`Bienvenido " ${espaciO} ${yourName} ${espaciO} ${youLastName} " a tu pagina web con Js`);
 }
  
 else if (verificacion >=18 && verificacion <=20 ){
