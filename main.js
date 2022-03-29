@@ -14,7 +14,10 @@ else if (verificacion >=18 && verificacion <=20 ){
 }
 else if (verificacion >=0 && verificacion <=17
      ){
-    alert("JAJAJAJA, eres un BEBE CURIOSO");
+    for (let i = 1; i<= verificacion; i++){
+        alert(`Nunca te dije, feliz cumpleaños numero17 ${i}`);
+    }
+    
 }
 
 for (let i = 0;  i < 10; i++){
