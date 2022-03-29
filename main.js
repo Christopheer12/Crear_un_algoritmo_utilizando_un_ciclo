@@ -2,6 +2,7 @@
 
 
 /* Promt*/
+let espaciO = (" ");
 let verificacion = parseInt(prompt("¿que edad tienes?"));
 if (verificacion >= 21 && verificacion<= 100){
     let yourName = prompt("¿cual es tu nombre?");
